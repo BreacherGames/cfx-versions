@@ -1,0 +1,26 @@
+{
+  "channels": {
+    "enhanced/linux": {
+      "latest": "157",
+      "path": "versions/enhanced/linux.json",
+      "stable": null
+    },
+    "enhanced/win32": {
+      "latest": "157",
+      "path": "versions/enhanced/win32.json",
+      "stable": null
+    },
+    "legacy/linux": {
+      "latest": "36897",
+      "path": "versions/legacy/linux.json",
+      "stable": "35245"
+    },
+    "legacy/win32": {
+      "latest": "36897",
+      "path": "versions/legacy/win32.json",
+      "stable": "35245"
+    }
+  },
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-01T04:06:33Z"
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "product": "legacy",
+  "platform": "win32",
+  "latest": "36897",
+  "stable": "35245",
+  "builds": {
+    "35245": {
+      "url": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/35245-6efb47dff473c0e2a12fb50b08d74c0eb24a50d5/server.zip",
+      "seenAt": "2026-10-01T04:06:33Z"
+    },
+    "35265": {
+      "url": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/35265-f26e3aacb0f6fe8a8c76227a79688b0853dadb45/server.zip",
+      "seenAt": "2026-08-25T01:05:53Z"
+    },
+    "35419": {
+      "url": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/35419-ebbf1487d9b4f8437dbff20677d4f2c907f7c999/server.zip",
+      "seenAt": "2026-08-28T09:27:39Z"
+    },
+    "35574": {
+      "url": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/35574-5c8481b36c2dc65ee7c8e9f5d9bf283f03e2f36e/server.zip",
+      "seenAt": "2026-08-31T03:33:40Z"
+    },
+    "35636": {
+      "url": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/35636-337a77d62259709e6817b3bcbfff0cdb54930c85/server.zip",
+      "seenAt": "2026-09-01T03:31:27Z"
+    },
+    "35713": {
+      "url": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/35713-03dcc562ca175e24eb018569ecb919b4b7a56824/server.zip",
+      "seenAt": "2026-09-02T02:49:26Z"
+    },
+    "35805": {
+      "url": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/35805-6fd665a365f56c2582c36d8ffaf301b0b1d5764b/server.zip",
+      "seenAt": "2026-09-06T02:52:57Z"
+    },
+    "35945": {
+      "url": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/35945-0d8a2a6f78a9922445d8930305af82a7b1826980/server.zip",
+      "seenAt": "2026-09-28T03:35:27Z"
+    },
+    "36727": {
+      "url": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/36727-e60d29ac2d6e894e20ba78d5fdf3c190d976fd2a/server.zip",
+      "seenAt": "2026-09-30T03:56:18Z"
+    },
+    "36897": {
+      "url": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/36897-e34d12cd9a39cc223548a5be1ab09f60e9183051/server.zip",
+      "seenAt": "2026-10-01T04:06:33Z"
+    }
+  }
+}

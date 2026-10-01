@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "product": "enhanced",
+  "platform": "win32",
+  "latest": "157",
+  "stable": null,
+  "builds": {
+    "139": {
+      "url": "https://downloads.cfx-services.net/prod/01a05860-2cbf-73e1-96f0-cec4a003f38c/cfx-server_win_x64.zip",
+      "seenAt": "2026-09-23T03:16:30Z"
+    },
+    "153": {
+      "url": "https://downloads.cfx-services.net/prod/01a0ce2e-3c18-76da-9940-dc635502bbf5/cfx-server_win_x64.zip",
+      "seenAt": "2026-09-24T03:06:26Z"
+    },
+    "156": {
+      "url": "https://downloads.cfx-services.net/prod/01a0d46a-5fec-7b65-b578-a6b7c7738575/cfx-server_win_x64.zip",
+      "seenAt": "2026-09-30T03:56:18Z"
+    },
+    "157": {
+      "url": "https://downloads.cfx-services.net/prod/01a0f2a8-3035-7b25-8582-d8ffaa923296/cfx-server_win_x64.zip",
+      "seenAt": "2026-10-01T04:06:33Z"
+    }
+  }
+}

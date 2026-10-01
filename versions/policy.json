@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "retention": {
+    "legacy": {
+      "minBuild": 35245
+    },
+    "enhanced": {
+      "minBuild": 129
+    }
+  }
+}

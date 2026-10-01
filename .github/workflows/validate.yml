@@ -1,0 +1,20 @@
+name: Validate catalog
+
+on:
+  pull_request:
+    paths: ['versions/**', '.github/scripts/**', '.github/workflows/validate.yml']
+  push:
+    branches: [main]
+    paths: ['versions/**', '.github/scripts/**', '.github/workflows/validate.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - run: .github/scripts/validate.sh
