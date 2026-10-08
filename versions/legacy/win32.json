@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "product": "legacy",
   "platform": "win32",
-  "latest": "36897",
+  "latest": "37150",
   "stable": "35245",
   "builds": {
     "35245": {
       "url": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/35245-6efb47dff473c0e2a12fb50b08d74c0eb24a50d5/server.zip",
-      "seenAt": "2026-10-07T05:13:23Z"
+      "seenAt": "2026-10-08T05:23:34Z"
     },
     "35265": {
       "url": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/35265-f26e3aacb0f6fe8a8c76227a79688b0853dadb45/server.zip",
@@ -44,6 +44,10 @@
     "36897": {
       "url": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/36897-e34d12cd9a39cc223548a5be1ab09f60e9183051/server.zip",
       "seenAt": "2026-10-07T05:13:23Z"
+    },
+    "37150": {
+      "url": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/37150-a74c2ccf0a56546dbb591b4545c643f56acebd3d/server.zip",
+      "seenAt": "2026-10-08T05:23:34Z"
     }
   }
 }
