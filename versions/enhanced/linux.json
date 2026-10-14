@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "product": "enhanced",
   "platform": "linux",
-  "latest": "161",
+  "latest": "168",
   "stable": null,
   "builds": {
     "139": {
@@ -24,6 +24,10 @@
     "161": {
       "url": "https://downloads.cfx-services.net/prod/01a0f7ee-dfa5-7d23-a7a4-86de1b40d6f1/cfx-server_linux_x64.tar.xz",
       "seenAt": "2026-10-13T06:13:58Z"
+    },
+    "168": {
+      "url": "https://downloads.cfx-services.net/prod/01a13609-d38e-79fb-8060-27ae5b6e578e/cfx-server_linux_x64.tar.xz",
+      "seenAt": "2026-10-14T04:16:25Z"
     }
   }
 }
