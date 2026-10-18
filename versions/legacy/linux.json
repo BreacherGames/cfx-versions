@@ -7,7 +7,7 @@
   "builds": {
     "35245": {
       "url": "https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/35245-6efb47dff473c0e2a12fb50b08d74c0eb24a50d5/fx.tar.xz",
-      "seenAt": "2026-10-17T03:45:36Z"
+      "seenAt": "2026-10-18T03:51:40Z"
     },
     "35265": {
       "url": "https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/35265-f26e3aacb0f6fe8a8c76227a79688b0853dadb45/fx.tar.xz",
@@ -63,7 +63,7 @@
     },
     "37474": {
       "url": "https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/37474-50b3f9b335573cb792fb78d991ea21d66c98520b/fx.tar.xz",
-      "seenAt": "2026-10-17T03:45:36Z"
+      "seenAt": "2026-10-18T03:51:40Z"
     }
   }
 }
