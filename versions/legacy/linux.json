@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "product": "legacy",
   "platform": "linux",
-  "latest": "37474",
+  "latest": "37563",
   "stable": "35245",
   "builds": {
     "35245": {
       "url": "https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/35245-6efb47dff473c0e2a12fb50b08d74c0eb24a50d5/fx.tar.xz",
-      "seenAt": "2026-10-19T04:00:38Z"
+      "seenAt": "2026-10-20T04:14:10Z"
     },
     "35265": {
       "url": "https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/35265-f26e3aacb0f6fe8a8c76227a79688b0853dadb45/fx.tar.xz",
@@ -64,6 +64,10 @@
     "37474": {
       "url": "https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/37474-50b3f9b335573cb792fb78d991ea21d66c98520b/fx.tar.xz",
       "seenAt": "2026-10-19T04:00:38Z"
+    },
+    "37563": {
+      "url": "https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/37563-580b25c85d0784992c43313a9136b8d5b6839b0a/fx.tar.xz",
+      "seenAt": "2026-10-20T04:14:10Z"
     }
   }
 }
