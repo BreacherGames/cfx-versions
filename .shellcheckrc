@@ -1,0 +1,5 @@
+shell=bash
+source-path=SCRIPTDIR
+external-sources=true
+# jq programs intentionally use $vars — not bash expansions
+disable=SC2016

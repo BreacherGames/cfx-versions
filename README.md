@@ -1,44 +1,53 @@
 # CFX Versions
 
-Public catalog of CFX / FXServer runtime builds (**Legacy** + **Enhanced**).
-Metadata and download URLs only — no binaries.
+Machine-readable catalog of **FXServer** download URLs for **Legacy** and **Enhanced** (Windows + Linux).
 
-## Consume
+No binaries — pins and HTTPS links only. Updated daily from [Cfx docs](https://docs.fivem.net/docs/server-download/).
 
-Start at `versions/index.json`, follow `channels.*.path`, then resolve a pin:
+## Quick start
 
 ```bash
-chan=$(jq -r '.channels["legacy/win32"].path' versions/index.json)
-jq -r '.builds[.latest].url' "$chan"
-jq -r '.builds[.stable].url' "$chan"   # null if unset
+BASE=https://raw.githubusercontent.com/BreacherGames/cfx-versions/main
+
+# Resolve a pin → URL
+chan=$(curl -fsSL "$BASE/versions/index.json" | jq -r '.channels["legacy/win32"].path')
+curl -fsSL "$BASE/$chan" | jq -r '.builds[.latest].url'
 ```
+
+| Channel | Product | Platform |
+| --- | --- | --- |
+| `legacy/win32` | Legacy | Windows |
+| `legacy/linux` | Legacy | Linux |
+| `enhanced/win32` | Enhanced | Windows |
+| `enhanced/linux` | Enhanced | Linux |
 
 | Pin | Meaning |
 | --- | --- |
-| `latest` | Newest build from sync |
-| `stable` | Manually pinned known-good (`null` until set) |
+| `latest` | Current recommended build from Cfx |
+| `stable` | Optional known-good pin (`null` until set) |
 
-## Layout
+Each channel file contains **only** pinned builds (no history).
+
+## Schema
+
+`schemaVersion: 1` — field names and paths are stable. A bump means a breaking change.
 
 ```text
-versions/
-  policy.json                 # retention floors (minBuild)
-  index.json                  # derived channel pins
-  legacy/{win32,linux}.json
-  enhanced/{win32,linux}.json
+versions/index.json              → channel pins + paths
+versions/{legacy,enhanced}/*.json → builds[id].{url,seenAt}
+versions/policy.json             → retention floors (maintainers)
 ```
 
-## Contract (`schemaVersion: 1`)
+Legacy URLs are always `…/master/…`. Windows Legacy links use `server.zip` (docs may show `.7z`; same folder).
 
-- Paths and field names are stable; breaking changes bump `schemaVersion`.
-- Legacy builds are master-only (`…/master/…`).
-- Sync prunes builds below `policy.json` floors; `latest` / `stable` pins are kept.
+## Maintainers
 
 ```bash
-./.github/scripts/validate.sh   # needs jq
+./.github/scripts/validate.sh
+./.github/scripts/sync.sh
+./.github/scripts/discover.sh legacy win32
+./.github/scripts/set-stable.sh legacy win32 <version>
 ```
-
-## Automation
 
 | Workflow | Trigger |
 | --- | --- |

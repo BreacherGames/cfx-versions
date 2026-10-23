@@ -13,14 +13,14 @@
     "legacy/linux": {
       "latest": "37692",
       "path": "versions/legacy/linux.json",
-      "stable": "35245"
+      "stable": null
     },
     "legacy/win32": {
       "latest": "37692",
       "path": "versions/legacy/win32.json",
-      "stable": "35245"
+      "stable": null
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T04:02:53Z"
+  "updatedAt": "2026-10-23T04:33:29Z"
 }
