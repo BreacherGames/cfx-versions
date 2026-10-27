@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "product": "legacy",
   "platform": "win32",
-  "latest": "37850",
+  "latest": "37872",
   "stable": null,
   "builds": {
-    "37850": {
-      "url": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/37850-46de79bc1d4dd7c64f16c5cfbadf94612b5ab3d9/server.zip",
-      "seenAt": "2026-10-24T03:59:15Z"
+    "37872": {
+      "url": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/37872-0cfcdb5ead57a4a26fcb6ebad98adbcd0273e607/server.zip",
+      "seenAt": "2026-10-27T04:24:26Z"
     }
   }
 }
