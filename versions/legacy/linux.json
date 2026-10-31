@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "product": "legacy",
   "platform": "linux",
-  "latest": "38004",
+  "latest": "38055",
   "stable": null,
   "builds": {
-    "38004": {
-      "url": "https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/38004-6381a41391cb21e66979af7a280201644bbd6760/fx.tar.xz",
-      "seenAt": "2026-10-29T05:06:23Z"
+    "38055": {
+      "url": "https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/38055-9f0e34e1cbdfc34fd05079416791f01938279097/fx.tar.xz",
+      "seenAt": "2026-10-31T04:52:24Z"
     }
   }
 }
