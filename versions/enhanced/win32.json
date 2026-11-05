@@ -6,7 +6,7 @@
   "stable": null,
   "builds": {
     "170": {
-      "url": "https://downloads.cfx-services.net/prod/01a169c3-7963-7973-9cbd-591d94fcd773/cfx-server_win_x64.zip",
+      "url": "https://cfx-downloads.akamaized.net/prod/01a169c3-7963-7973-9cbd-591d94fcd773/cfx-server_win_x64.zip",
       "seenAt": "2026-10-24T03:59:15Z"
     }
   }
