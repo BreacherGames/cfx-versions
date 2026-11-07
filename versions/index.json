@@ -11,16 +11,16 @@
       "stable": null
     },
     "legacy/linux": {
-      "latest": "38386",
+      "latest": "38435",
       "path": "versions/legacy/linux.json",
       "stable": null
     },
     "legacy/win32": {
-      "latest": "38386",
+      "latest": "38435",
       "path": "versions/legacy/win32.json",
       "stable": null
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T05:52:00Z"
+  "updatedAt": "2026-11-07T05:24:06Z"
 }
