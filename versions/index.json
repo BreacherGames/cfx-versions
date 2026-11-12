@@ -1,26 +1,26 @@
 {
   "channels": {
     "enhanced/linux": {
-      "latest": "170",
+      "latest": "177",
       "path": "versions/enhanced/linux.json",
       "stable": null
     },
     "enhanced/win32": {
-      "latest": "170",
+      "latest": "177",
       "path": "versions/enhanced/win32.json",
       "stable": null
     },
     "legacy/linux": {
-      "latest": "38435",
+      "latest": "38621",
       "path": "versions/legacy/linux.json",
       "stable": null
     },
     "legacy/win32": {
-      "latest": "38435",
+      "latest": "38621",
       "path": "versions/legacy/win32.json",
       "stable": null
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T05:24:06Z"
+  "updatedAt": "2026-11-12T06:35:49Z"
 }

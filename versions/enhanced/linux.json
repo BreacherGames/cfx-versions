@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "product": "enhanced",
   "platform": "linux",
-  "latest": "170",
+  "latest": "177",
   "stable": null,
   "builds": {
-    "170": {
-      "url": "https://cfx-downloads.akamaized.net/prod/01a169c3-8f7c-7a53-8bf2-2f094c05e77a/cfx-server_linux_x64.tar.xz",
-      "seenAt": "2026-10-24T03:59:15Z"
+    "177": {
+      "url": "https://cfx-downloads.akamaized.net/prod/01a1c6b2-b23a-7ca9-868f-c022b697ced2/cfx-server_linux_x64.tar.xz",
+      "seenAt": "2026-11-12T06:35:49Z"
     }
   }
 }
